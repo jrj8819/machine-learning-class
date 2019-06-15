@@ -96,7 +96,7 @@ Anaconda는 데이터 정형화 및 분석을 위한 파이썬 모듈을 제공�
 
 다음 코드는 네이버 영화 사이트에서 영화 제목을 추출하는 코드이다.
 
-![](/Users/raejin/machine-learning-class/img/4.png)
+![](./img/4.png)
 
 ```python
 from bs4 import BeautifulSoup
