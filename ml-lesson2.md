@@ -12,7 +12,7 @@ iris = datasets.load_iris()
 ar = iris.data
 ```
 
-![](./img/test 2019-06-18 20-23-09.png)
+![](./img/13.png)
 
 - DataFrame : 근본적으로 행과 열 레이블이 부착된 다차원 배열, 여러가지 타입의 데이터를 저장할 수 있으며 데이터 누락도 혀용, 데이터베이스와 스프레드시트 프로그램과 유사
 
@@ -105,7 +105,7 @@ population['California':'Illinois']
 
 ### 예제 ) 다음의 데이터로 area라는 Series 객체를 만드세요.
 
-![](./img/python-programming-class:ML_lesson3.ipynb at master · jrj8819:python-programming-class 2019-06-18 21-12-29.png)
+![](./img/14.png)
 
 
 
@@ -121,7 +121,7 @@ states = pd.DataFrame({'population': population,
 states
 ```
 
-![](./img/03.01-Introducing-Pandas-Objects 2019-06-18 21-22-21.png)
+![](./img/15.png)
 
 Series  객체와 마찬가지로 DataFrame도 인덱스를 접근할 수 있는 index 속성이 있다. 또한 열의 이름을 모아놓은 column 속성을 가지고 있다.
 
@@ -171,9 +171,11 @@ A
 pd.DataFrame(A)
 ```
 
-###예제) 다음 형태의 DataFrame을 만드세요.
 
-![](./img/test 2019-06-21 17-18-06.png)
+
+### 예제) 다음 형태의 DataFrame을 만드세요.
+
+![](./img/16.png)
 
 
 
@@ -234,7 +236,7 @@ data[['a', 'e']] # 펜시 인덱싱
 
 ## 인덱서 : loc, iloc 
 
-앞의 예시에서 명시적으로 정수 인덱스를 선언하였다면, 슬라이싱을 할 때 혼동을 불러 일으킬 수 있다. 가령 Series가 다음 코드처럼 명시적인 정수 인덱스를 가지고 있다.
+ 앞의 예시에서 명시적으로 정수 인덱스를 선언하였다면, 슬라이싱을 할 때 혼동을 불러 일으킬 수 있다. 가령 Series가 다음 코드처럼 명시적인 정수 인덱스를 가지고 있다.
 
 ```python
 data = pd.Series(['a', 'b', 'c'], index=[1, 3, 5])
@@ -388,7 +390,7 @@ A + B
 
 앞의 예시에 나온 연산 외에 다양한 형태의 함수들이 있으므로 활용하자.
 
-![](./img/03.03-Operations-in-Pandas 2019-06-21 17-51-28.png)
+![](./img/17.png)
 
 ### DataFrame과 Series간의 연산
 
@@ -584,9 +586,9 @@ quiz_load
 # np.random.randint(0,10)
 ```
 
-![](./img/test 2019-06-21 19-54-48.png)
 
 
+![](./img/18-1.png)
 
 # 계층적 인덱싱
 
@@ -598,7 +600,7 @@ quiz_load
 
 두 연도(2000, 2010)에 대해 미국주의 데이터를 표현한다고 가정하자. 이 데이터프레임을 1차원 Series로 표현한다면?
 
-![](./img/python-programming-class:ML_lesson5.ipynb at master · jrj8819:python-programming-class 2019-06-21 23-50-11.png)
+![](./img/19.png)
 
 ```python
 index = [('California', 2000), ('California', 2010),
@@ -650,7 +652,7 @@ pop = pop.reindex(index)
 pop
 ```
 
-![](./img/03.05-Hierarchical-Indexing 2019-06-22 00-07-48.png)
+![](./img/20.png)
 
 
 
@@ -793,7 +795,7 @@ data[:, ::2] *= 10
 data += 37
 ```
 
- ![](./img/03.05-Hierarchical-Indexing 2019-06-22 01-10-14.png)
+ ![](./img/21.png)
 
 
 
