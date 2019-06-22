@@ -588,7 +588,9 @@ quiz_load
 
 
 
-![](./img/18-1.png)
+![](./img/20.png)
+
+![](./img/22.PNG)
 
 # 계층적 인덱싱
 
@@ -651,8 +653,6 @@ index
 pop = pop.reindex(index)
 pop
 ```
-
-![](./img/20.png)
 
 
 
