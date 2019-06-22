@@ -18,7 +18,7 @@ titanic.head()
 
 groupby를 활용하여 성별에 따른 평균 생존률을 구하세요. 조금 더 심화하여 성별과 좌석 등급별 생존율을 보고 싶다면?
 
-![](/Users/raejin/machine-learning-class/img/28.png)![](/Users/raejin/machine-learning-class/img/29.png)
+![](./img/28.png)![](./img/29.png)
 
 
 
@@ -94,7 +94,8 @@ DataFrame.pivot_table(data, values=None, index=None, columns=None,
 
 ### 예제) 
 
-다음과 같이 연대별 남녀 출생수를 구해보자
+다음과 같이 연대별 남녀 출생수를 구해보자. 데이터셋은 
+
+
 
 ![30](assets/30.png)
-
