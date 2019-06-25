@@ -329,7 +329,7 @@ plt.legend()
 
 ### 예제)
 
-csv(ny_population, la_population, ca_population, use_population) 파일에 담긴 주와 미국 전체 인구수 데이터에서 년도별 인구수로 다음과 같은 라인플롯을 그리세요.
+csv(ny_population, mi_population, ca_population) 파일에 담긴 주와 미국 전체 인구수 데이터에서 년도별 인구수로 다음과 같은 라인플롯을 그리세요.
 
 인구수 데이터는 숫자가 크므로 값을 np.log()를 활용하여 표현하세요.
 
