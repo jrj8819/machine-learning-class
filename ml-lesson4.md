@@ -450,6 +450,8 @@ x = ['Kim', 'Lee', 'Pack', 'Jeong']
 plt.bar(x, y)
 ```
 
+![36](assets/36.png)
+
 같은 데이터로 plt.barh() 메서드를 활용하여 가로 막대로 그려보자. 추가적으로 오류 범위를 표시하는 xerr 속성(y축은 yerr 속성)과  값을 표시하였다. 마찬가지로 plt.bar()함수에도 오류범위를 표시할 수 있다.
 
 ```python
@@ -460,7 +462,7 @@ err = np.random.rand(4) * 20
 plt.barh(x, y, xerr=err)
 ```
 
-
+![37](assets/37.png)
 
 # 파이 플롯 (Pie Plot)
 
@@ -482,4 +484,5 @@ plt.pie() 함수의 첫 인수는 표시할 데이터이고, explode는 데이�
 
 labels는 플롯안에 표시되는 데이터의 이름, colors는 색상, autopct는 표기 방법으로 '%0.2f%%'은 소수 둘째자리가지 표기하는 것이다. shadow는 그림자 표시 여부를 나타나는 속성이다.
 
- 
+![38](assets/38.png) 
+
